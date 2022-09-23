@@ -65,7 +65,7 @@ jobs:
     #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance.
 
     - run: |
-       ./gradlew --no-daemon -S -Dorg.gradle.dependency.verification=off
+       ./gradlew
       
       
     #   echo "Run, Build Application using script"
